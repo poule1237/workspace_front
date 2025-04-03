@@ -13,7 +13,8 @@ th{
     border-bottom: solid;
 }
 td{
-    border-bottom: dotted;
+    border-bottom:dotted 1px; 
+
     
 }
 tbody tr:hover{
