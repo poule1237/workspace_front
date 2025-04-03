@@ -1,15 +1,24 @@
 @charset "UFT-8";
 
-
-
-th{
+table{
     border-collapse: collapse;
-    border: 1px solid #000000;
+}
+
+tr{
+    text-align: center;
+}
+th{
     background-color: #d5d5d5;
+    border-top: solid;
+    border-bottom: solid;
 }
 td{
     border-bottom: dotted;
+    
 }
-tr{
-    text-align: center;
+tbody tr:hover{
+    background-color: #ffff00;
+}
+.solid td{
+    border-bottom: solid;
 }
