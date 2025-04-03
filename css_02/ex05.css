@@ -1,0 +1,15 @@
+@charset "UFT-8";
+
+
+
+th{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    background-color: #d5d5d5;
+}
+td{
+    border-bottom: dotted;
+}
+tr{
+    text-align: center;
+}
