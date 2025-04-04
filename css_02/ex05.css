@@ -13,9 +13,7 @@ th{
     border-bottom: solid;
 }
 td{
-    border-bottom:dotted 1px;
-    text-decoration: underline; 
-    
+    border-bottom:dotted 1px; 
 }
 tbody tr:hover{
     background-color: #ffff00;
