@@ -18,6 +18,6 @@ td{
 tbody tr:hover{
     background-color: #ffff00;
 }
-.solid td{
+.solid{
     border-bottom: solid;
 }
