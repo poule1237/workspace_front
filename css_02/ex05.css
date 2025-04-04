@@ -13,8 +13,8 @@ th{
     border-bottom: solid;
 }
 td{
-    border-bottom:dotted 1px; 
-
+    border-bottom:dotted 1px;
+    text-decoration: underline; 
     
 }
 tbody tr:hover{
