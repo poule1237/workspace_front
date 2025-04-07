@@ -33,3 +33,14 @@ body{
     display: inline-block;
 }
 
+
+
+.form-group textarea{
+    width: 585px;
+    height: 60px;
+}
+
+.btn-group{
+    width: 120px;
+    padding: 10px 0px 10px 0px;
+}
