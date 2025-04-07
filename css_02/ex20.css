@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body, div,
+ul, li, dl, dt, ol,
+h1, h2, h3,h4, h5, h6, 
+input, fieldset, legend, p, select, textarea, button, form
+p,table, th, td, tr{ 
+    margin: 0; padding: 0;
+}
+body{
+    background-color: #808080;
+    font-family: "맑은 고딕";
+    font-size: 12px;
+}
+.wrap{
+    background-color: #ffffff;
+    width: 600px;
+}
+
+.wrap h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+/* 공용 */
+.form-group{
+    border:1px solid #000000;
+    margin: 10px;
+}
+/* 공용 */
+.form-title{
+    width: 120px;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+}
+
