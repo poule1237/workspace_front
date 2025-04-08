@@ -20,10 +20,29 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
+
+.wrap ol{
+    list-style: none;
+    margin: 10px 0px 10px 0px;
+}
+
+ol li{
+    float: left;
+}
+li::after{
+    content: ">";
+    padding: 0px 5px 0px 5px;
+}
+:last-child::after{
+    content: none;
+}
+
+
 /* 공용 */
 .form-group{
-    border:1px solid #000000;
+    border-bottom:1px solid #000000;
     margin: 10px;
+    padding: 10px;
 }
 /* 공용 */
 .form-title{
@@ -32,15 +51,50 @@ body{
     text-align: center;
     display: inline-block;
 }
+input select textarea { 
+    font-family: "inherit";
+    font-size: "inherit";
+}
+
+/* 라디오체크박스 */
+.form-group input[type="radio"],
+.form-group input[type="checkbox"]{
+    font-family: "inherit";
+    font-size: "inherit";
+}
 
 
-
+/* 글내용 */
 .form-group textarea{
-    width: 585px;
-    height: 60px;
+    width: 480px;
+    height: 70px;
 }
 
-.btn-group{
-    width: 120px;
-    padding: 10px 0px 10px 0px;
+.vt-briping{
+    vertical-align: top;
 }
+
+/* 버튼그룹 */
+.btn-group{
+    text-align: center;
+    padding: 10px;
+}
+
+/* 버튼그룹 */
+.btn-group button{
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+}
+
+/* clearfix */
+.clearfix::before, .clearfix::after{
+    display: block;
+    content: ""; 
+    line-height: 0;}
+.clearfix::after
+ {clear: both;}
+
+ #txt{
+    margin-top: 10px;
+ }

@@ -5,7 +5,8 @@
         <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
         <title>스타일시트</title>
         <!-- 스타일시트자리 -->
-         <link rel="stylesheet" href="ex20.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="ex20.css">     
     </head>
 
     
@@ -13,6 +14,12 @@
         <div class="wrap">
         
             <h3>회원가입</h3>
+
+            <ol class="clearfix">
+                <li>홈</li>
+                <li>유저</li>
+                <li>회원가입</li>
+            </ol>
 
             <!-- 아이디 -->
         <div class="form-group">
@@ -34,23 +41,99 @@
             <label for="txt-file" class="form-title">프로필사진</label>
             <input id="txt-file" type="file">
         </div>
-        <div>
-            <label for="txt-address">주소</label>
-            <input id="txt-address" type="text">
-        </div>
-        <span>
-            <button>우편번호확인</button>
-        </span>
-        
-        
-        
         <div class="form-group">
-            <textarea></textarea>
+            <label for="txt-address" class="form-title">주소</label>
+            <input id="txt-address" type="text" name="" value="">
+            <button>우편번호확인</button>
+            <div>
+                <label for="txt" class="form-title"></label>
+                <input id="txt" type="text" name="" value="">
+            </div>
         </div>
 
+        <div class="form-group">
+            <label class="form-title">이동통신사</label>
+            <select>
+                <option>SKT</option>
+                <option>KT</option>
+                <option>LGU+</option>
+                <option>알뜰폰</option>
+                <option>기타</option>
+            </select>
+        </div>
+        
+        <!-- 나이 -->
+        <div class="form-group">
+        <span class="form-title">나이</span>
+
+        <label for="ten" class="font">10대</label> 
+        <input id="ten" type="radio">   
+        
+        <label for="tw" class="font">20대</label> 
+        <input id="tw" type="radio">   
+        
+        <label for="samsip" class="font">30대</label> 
+        <input id="samsip" type="radio">  
+        
+        <label for="sasip" class="font">40대</label> 
+        <input id="sasip" type="radio">   
+        
+        <label for="gita" class="font">기타</label> 
+        <input id="gita" type="radio">   
+        </div>
+        
+        <!-- 혈액형 -->
+         <div class="form-group">
+            <span class="form-title">혈액형</span>
+
+            <label for="a-1" class="font">A형</label> 
+            <input id="a-1" type="radio"> 
+
+            <label for="b-1" class="font">B형</label> 
+            <input id="b-1" type="radio"> 
+
+            <label for="o-1" class="font">O형</label> 
+            <input id="o-1" type="radio"> 
+
+            <label for="ab-1" class="font">AB형</label> 
+            <input id="ab-1" type="radio"> 
+
+         </div>
+
+         <!-- 취미 -->
+         <div class="form-group">
+         <span class="form-title">취미</span>
+
+         <label for="book" class="font">독서</label>
+         <input id="body" type="checkbox">
+
+         <label for="music" class="font">음악</label>
+         <input id="music" type="checkbox">
+
+         <label for="trip" class="font">여행</label>
+         <input id="trip" type="checkbox">
+
+         <label for="movie" class="font">영화</label>
+         <input id="movie" type="checkbox">
+
+         <label for="code" class="font">코딩</label>
+         <input id="code" type="checkbox">
+
+         <label for="Guitar" class="font">기타</label>
+         <input id="Guitar" type="checkbox">
+        </div>
+
+        
+        <!-- 자기소개 -->
+        <div class="form-group">
+        <label class="vt-briping">자기소개</label>
+        <textarea></textarea>
+        </div>
+
+        <!-- 버튼그룹 -->
         <div class="btn-group">
-        <button>등록</button>
-        <button>초기화</button>
+        <button type="submit">등록</button>
+        <button type="reset">초기화</button>
         </div>
         
 
