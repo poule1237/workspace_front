@@ -41,9 +41,11 @@ li::after{
 /* 공용 */
 .form-group{
     border-bottom:1px solid #000000;
-    margin: 10px;
     padding: 10px;
+    
 }
+
+
 /* 공용 */
 .form-title{
     width: 120px;
@@ -66,18 +68,21 @@ input select textarea {
 
 /* 글내용 */
 .form-group textarea{
-    width: 480px;
-    height: 70px;
+    width: 450px;
+    height: 60px;
 }
 
 .vt-briping{
     vertical-align: top;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* 버튼그룹 */
 .btn-group{
     text-align: center;
     padding: 10px;
+
 }
 
 /* 버튼그룹 */
@@ -97,4 +102,5 @@ input select textarea {
 
  #txt{
     margin-top: 10px;
+    width: 350px;
  }
