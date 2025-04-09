@@ -3,33 +3,55 @@
 /* 게시판관련 페이지에서만 사용(리스트 등록용 수정용 읽기) */
 
 /* 리스트 */
-table{
-    border-collapse: collapse;
-}   
 
-th{
-    background-color: #d5d5d5;
-    border-top: solid;
-    border-bottom: solid;
-}
-tbody td{
-    border-bottom: 1px solid;
-}
 tbody tr:hover{
     background-color: #ffff00;
 }
 
 /* 리스트 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border-bottom: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #e0e0e0;
+    border-top: solid #000000;
+    border-bottom: solid #000000;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
 /* 등록용 */
-.link{
-    padding:10px 20px 10px 20px;
-    background-color:#e3e3e3;
-    display: inline-block;
-    border-radius: 3px;
-    border: 1px solid #c0c0c0;
+.txt-box {
+    text-align: right;
+    margin-bottom: 10px;
 }
 .flot{
     float: right;
 }
+.page {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .page a {
+    text-decoration: none;
+    margin: 0 5px;
+    color: #000;
+  }
+  .btn {
+    text-align: right;
+    margin-bottom: 30px;
+  }
 /* 등록용 */
