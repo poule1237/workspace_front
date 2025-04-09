@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* 메인페이지에서만사용 */
+/* 콘텐츠(메인)관련********************************* */
+#profile{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+#greeting-box{
+    width: 620px;
+    float: left;
+}
+
+#greeting-box  .greeting{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#greeting-box .introduce{
+    font-size: 14px;
+}
+/* 콘텐츠(메인)관련******************************** */

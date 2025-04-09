@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/*******************************/
+/* Mysite 공통 */
+/***********************************/
+
+
 /* 레이아웃 *************************/
 body{
     font-family: "맑은 고딕";
@@ -43,7 +48,6 @@ body{
 #content2 #main{
     width: 790px;
     float: left;
-    border: 1px solid #000000;
 }
 /* 오른쪽 */
 #footer{
@@ -89,30 +93,6 @@ body{
 }
 /* 네비관련********************************** */
 
-
-/* 콘텐츠(메인)관련********************************* */
-#profile{
-    width: 300px;
-    float: left;
-    margin-right: 20px;
-}
-
-#greeting-box{
-    width: 620px;
-    float: left;
-}
-
-#greeting-box  .greeting{
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#greeting-box .introduce{
-    font-size: 14px;
-}
-/* 콘텐츠(메인)관련******************************** */
-
 /* 컨텐츠2(게시판리스트) ****************************************/
 #aside h2{
     width: 180px;
@@ -129,26 +109,32 @@ body{
     border: 1px solid #a6a6a6;
 }
 
-#main h3{
+#main #main-head{
+    padding: 13px 0px 10px 0px;
+    border-bottom: 1px solid #000000;
+}
+
+#main #main-head h3{
     font-size: 20px;
     font-weight: bold;
     float: left;
 }
 
-#main ol{
+#main #main-head ol{
+    margin-top: 10px;
     float: right;
 }
 
-#main ol>li{
+#main #main-head ol>li{
     float: left;
 }
 
-#main ol>li::after{
+#main #main-head ol>li::after{
     content: ">";
     padding: 0px 0px 0px 3px;
 }
 
-#main ol>li:last-child::after{
+#main #main-head ol>li:last-child::after{
     content: none;
 }
 

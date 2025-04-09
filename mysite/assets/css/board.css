@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* 게시판관련 페이지에서만 사용(리스트 등록용 수정용 읽기) */
+
+/* 리스트 */
+table{
+    border-collapse: collapse;
+}   
+
+th{
+    background-color: #d5d5d5;
+    border-top: solid;
+    border-bottom: solid;
+}
+tbody td{
+    border-bottom: 1px solid;
+}
+tbody tr:hover{
+    background-color: #ffff00;
+}
+
+/* 리스트 */
+
+/* 등록용 */
+.link{
+    padding:10px 20px 10px 20px;
+    background-color:#e3e3e3;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #c0c0c0;
+}
+.flot{
+    float: right;
+}
+/* 등록용 */
