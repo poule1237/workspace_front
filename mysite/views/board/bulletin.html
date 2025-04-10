@@ -9,6 +9,7 @@
     </head>
     
     <body>
+        <div class="wrap">
         <div id="header" class="clearfix">
             <h1>MySite</h1>
             <ul class="clearfix">
@@ -36,6 +37,8 @@
                     <a href="">방명록</a>
                 </li>
             </ul>
+            </div>
+            
             <div id="content2" class="clearfix">
                 <div id="aside">
                 <h2>게시판</h2>
@@ -55,18 +58,34 @@
                 </ol>
             </div>
 
-            <div>
-                <label>제목</label>
-                <input type="text" placeholder="제목을 입력해주세요" name="" value="">
+            <div class="form-group">
+                <label for="txt-title" class="form-title">제목</label>
+                <input id="txt-title" type="text" placeholder="제목을 입력해주세요" name="" value="">
             </div>
             
-            <div>
+            <div class="form-group">
                 <textarea></textarea>
+            </div>
+
+            <div  id="txt-btn" class="clearfix">
+            <ul id="txt-btn">
+                <li>
+                    <a href="">등록</a>
+                </li>
+                <li>
+                    <a href="">취소</a>
+                </li>
+            </ul>
             </div>
 
             <div id="footer">
                 <p>Copyright ⓒ 2025 정영민. All right reserved</p>
             </div>
+            </div>
+            </div>
+            </div>
+            
+        </div>
     </body>
 </html>
 

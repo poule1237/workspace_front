@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.txt-title{
+    margin: 20px 10px 20px 10px;
+    display: inline-block;
+    
+}
+.form-group{
+    border-bottom: 1px solid #000000;
+}
+.form-group p{
+    margin: 10px;
+}
+#txt-btn{
+    float: right;
+    margin-bottom: 20px;
+}
+
+#txt-btn>ul>li{
+    float: left;
+    padding: 10px 10px 10px 10px;
+     margin-left: 10px;
+    
+    border-radius: 3px;
+    background-color: #e3e3e3;
+    border: 1px solid #c0c0c0;
+}

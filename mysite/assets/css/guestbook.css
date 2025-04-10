@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.form-group{
+    border: 1px solid #000000;
+}
+.form-group textarea{
+    width: 750px;
+    height: 150px;
+}
+button{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+table{
+    border-collapse:collapse;
+    width: 790px;
+    border: 1px solid #000000;
+}
+td{
+    border: 1px solid #000000;
+}
+
+.letter{
+    border: none;
+}
+input{
+    width: 330px;
+    margin: 3px;
+}

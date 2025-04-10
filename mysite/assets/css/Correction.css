@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
-.form-title{
-    width: 150px;
-    font-size: 12px;
-    text-align: center;
+.txt-title{
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
     display: inline-block;
-    margin-bottom: 10px;
 }
 .form-group textarea{
     width: 800px;
-    height: 600px;
+    height: 500px;
+}
+
+.form-group #txt{
+    width: 700px;
+    padding-bottom: 10px;
 }
 
 #txt-btn ul{
@@ -25,8 +28,4 @@
     border-radius: 3px;
     background-color: #e3e3e3;
     border: 1px solid #c0c0c0;
-}
-.form-group #txt-title{
-    width: 600px;
-    padding-bottom: 10px;
 }
