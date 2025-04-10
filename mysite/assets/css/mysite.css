@@ -51,9 +51,9 @@ body{
 }
 /* 오른쪽 */
 #footer{
-    padding: 10px 0px 10px 0px;
+    padding: 20px 30px 20px 0px;
     background-color: #dddddd;
-
+    margin-top: 20px;
 }
 /* 레이아웃 *****************************/
 

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.borad{
+    border: 1px solid #000000;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form-title{
+    padding: 20px;
+}
+.form-group{
+    margin-bottom:50px;
+    text-align: center;
+
+}
+div input{
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn{
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+}

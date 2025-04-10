@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* 이미지 */
+    button{
+        padding: 10px;
+        float: right;
+    }
+
+    img{
+        width: 180px;
+       
+
+    }
+    .img-box{
+        float: left;
+        border: 1px solid #000000;
+        padding: 0px 1px 10px 3px;
+        margin: 5px;
+        font-size: 10px;
+    }
+    li p{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    
+/* 이미지 */
